@@ -1,5 +1,5 @@
 # Python virtual environment
-venv/
+.venv/
 
 # VS Code files
 .vscode/
