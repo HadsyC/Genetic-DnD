@@ -1,5 +1,6 @@
 # Genetic-DnD
 <p align="center">
+  <img alt="GitHub Pipenv locked Python version" src="https://img.shields.io/github/pipenv/locked/python-version/HadsyC/Genetic-DnD">
   <a href="https://github.com/HadsyC/Genetic-DnD/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/HadsyC/Genetic-DnD"></a>
 </p>
 
