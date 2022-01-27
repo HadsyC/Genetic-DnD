@@ -19,13 +19,6 @@ Python devs [recommend](https://packaging.python.org/en/latest/guides/tool-recom
 $ pip install pipenv
 ```
 
-Normally, pipenv will store the virtual environment globally using the name of the project and a hash code, I prefer having my environments locally within the project files, this behaviour can be convieniently changed using:
-
-```
-$ export PIPENV_VENV_IN_PROJECT=1
-```
-In Windows you'll need to add the environment variable manually. Follow these [steps](https://superuser.com/questions/949560/how-do-i-set-system-environment-variables-in-windows-10) to do it or google it yourself.
-
 To install all the required packages into your env, go to the folder where you cloned this repo and run:
 ```
 $ pipenv install
@@ -40,5 +33,14 @@ or
 ```
 pipenv run python main.py
 ```
+
+### Where is my Virtual Environment?
+Normally, pipenv will store the virtual environment globally in a folder using the name of the project and a hash code, I prefer having my environments locally within the project files, this behaviour can be convieniently changed using:
+
+```
+$ export PIPENV_VENV_IN_PROJECT=1
+```
+In Windows you'll need to add the environment variable manually. Follow these [steps](https://superuser.com/questions/949560/how-do-i-set-system-environment-variables-in-windows-10) to do it or [google](https://letmegooglethat.com/?q=Bro+I+need+them+environment+variables+in+windows+changed) it yourself.
+
 ## External data
 The [data](https://github.com/HadsyC/Genetic-DnD/tree/main/data) folder was  extracted from the [5e-tools repo](https://github.com/5etools-mirror-1/5etools-mirror-1.github.io).
